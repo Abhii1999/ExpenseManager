@@ -7,12 +7,12 @@ import ExpenseForm from "./ExpenseForm";
 const NewExpense = (props) => {
 
 
-    const UserinputHandler = (expenses) => {
-            props.onaddExpense(expenses);
-    };
+        const UserinputHandler = (expenses) => {
+                props.onaddExpense(expenses);
+        };
 
-    return <div className='new-expense'>
-        <ExpenseForm onUserinput={UserinputHandler} />
+        return <div className='new-expense'>
+                <ExpenseForm onUserinput={UserinputHandler} />
         </div>
 };
 
