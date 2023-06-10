@@ -6,7 +6,6 @@ import './Expenses.css';
 import ExpensesFilter from './ExpensesFilter';
 
 const Expenses = (props) => {
-  aa = 'dd'
   return (
     <Card className="expenses">
       <ExpensesFilter></ExpensesFilter>
